@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
 
 public class Log {
+  // delegated methods
   public static void debug(Marker arg0, String arg1, Object arg2, Object arg3) {
     getLogger().debug(arg0, arg1, arg2, arg3);
   }
@@ -249,6 +250,8 @@ public class Log {
     getLogger().warn(arg0);
   }
 
+  // private methods
+
   static String getCallingClassName() {
     return Thread.currentThread().getStackTrace()[4].getClassName();
   }
@@ -258,4 +261,3 @@ public class Log {
   }
 
 }
-
