@@ -130,43 +130,43 @@ public class Log {
     getLogger().info(arg0);
   }
 
-  public boolean isDebugEnabled() {
+  public static boolean isDebugEnabled() {
     return getLogger().isDebugEnabled();
   }
 
-  public boolean isDebugEnabled(Marker arg0) {
+  public static boolean isDebugEnabled(Marker arg0) {
     return getLogger().isDebugEnabled(arg0);
   }
 
-  public boolean isErrorEnabled() {
+  public static boolean isErrorEnabled() {
     return getLogger().isErrorEnabled();
   }
 
-  public boolean isErrorEnabled(Marker arg0) {
+  public static boolean isErrorEnabled(Marker arg0) {
     return getLogger().isErrorEnabled(arg0);
   }
 
-  public boolean isInfoEnabled() {
+  public static boolean isInfoEnabled() {
     return getLogger().isInfoEnabled();
   }
 
-  public boolean isInfoEnabled(Marker arg0) {
+  public static boolean isInfoEnabled(Marker arg0) {
     return getLogger().isInfoEnabled(arg0);
   }
 
-  public boolean isTraceEnabled() {
+  public static boolean isTraceEnabled() {
     return getLogger().isTraceEnabled();
   }
 
-  public boolean isTraceEnabled(Marker arg0) {
+  public static boolean isTraceEnabled(Marker arg0) {
     return getLogger().isTraceEnabled(arg0);
   }
 
-  public boolean isWarnEnabled() {
+  public static boolean isWarnEnabled() {
     return getLogger().isWarnEnabled();
   }
 
-  public boolean isWarnEnabled(Marker arg0) {
+  public static boolean isWarnEnabled(Marker arg0) {
     return getLogger().isWarnEnabled(arg0);
   }
 
