@@ -3,3 +3,7 @@
 
 # Maven
 target
+
+# eclipse
+.classpath
+.settings
